@@ -1,0 +1,29 @@
+{
+  "name": "luis-catalogue",
+  "version": "1.0.0",
+  "description": "Example catalogue for Lui",
+  "main": "dest/index.js",
+  "scripts": {
+    "test": "test",
+    "luis": "node fuse"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "Tomas Trescak <tomi.trescak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "luis": "^2.3.14",
+    "luis-browser": "^0.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/react": "^16.0.35",
+    "chai": "^4.1.2",
+    "connect-history-api-fallback": "^1.5.0",
+    "fuse-box": "^3.0.2",
+    "typescript": "^2.6.2"
+  }
+}
